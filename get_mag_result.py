@@ -1,8 +1,4 @@
 import requests
-import sys
-
-class enrollee:
-    pass
 
 CMC_LINK_1 = "http://pk.cs.msu.ru/node/1415"
 CMC_LINK_2 = "http://pk.cs.msu.ru/node/1428"
@@ -65,5 +61,6 @@ for i in sorted(lst.keys()):
         sum += lst[i]
 print("-------------------")
 print("SUM = " + str(sum))
+
 
 
